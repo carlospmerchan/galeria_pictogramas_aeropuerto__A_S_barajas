@@ -19,6 +19,12 @@ h1{
   font-weight: 40;
   color: yellow;
 }
+  
+p{
+  font-family: ASBarajas;
+  font-weight: 40;
+  color: yellow;
+}
 
 h1:hover{
   font-family: ASBarajas;
@@ -34,11 +40,8 @@ table {
   width: 100%;
 }
 
-table, th, td {
-  border: 1px solid black;
-}
 
-td {
+td.s {
   text-align: center;
   font-size: 90px;
   font-family: ASBarajas;
@@ -51,15 +54,25 @@ td {
   padding-bottom: 10px
 }
 
+td.code{
+  text-align:center;
+  font-size: 15px;
+  font-family: ASBarajas;
+  border-radius: 5px;
+  background-color: grey;
+  padding-right: 20px;
+  font-weight: 100;
+}
 
-td:hover {
+
+td.s:hover {
   font-variation-settings: "wght" 200;
   animation:  wacky infinite;
   animation-duration: 2s;
   animation-timing-function: ease;
 }
 
-th{
+th.s{
   text-align: right;
   font-size: 30px;
   font-family: ASBarajas;
@@ -70,10 +83,16 @@ th{
   padding-right: 20px;
 }
 
-.destacado{
-  padding:10px;
+th.code{
+  text-align: right;
+  font-size: 15px;
+  font-family: ASBarajas;
+  border-radius: 5px;
+  background-color: grey;
+  padding-right: 20px;
+  font-weight: 100;
 }
 
-.titulo{
-  
+.destacado{
+  padding:10px;
 }
