@@ -1,0 +1,79 @@
+@font-face {
+    font-family:"ASBarajas";
+    src: url("fonts/Barajas_pictogramas_v19-VF.ttf");
+    font-weight: 40 200;
+}
+
+@keyframes wacky  {
+  0%   {font-variation-settings: "wght" 40}
+  50%   {font-variation-settings: "wght" 200}
+  100% {font-variation-settings: "wght" 40}
+    }
+
+body{
+  background-color: black; 
+}
+
+h1{
+  font-family: ASBarajas;
+  font-weight: 40;
+  color: yellow;
+}
+
+h1:hover{
+  font-family: ASBarajas;
+  font-weight: 40;
+  color: yellow;
+  animation:  wacky infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+}
+
+table {
+  border-spacing: 10px;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+  font-size: 90px;
+  font-family: ASBarajas;
+  font-variation-settings: "wght" 40;
+  transition: font-variation-settings 0.3s ease;
+  border-radius: 10px;
+  background-color: yellow;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px
+}
+
+
+td:hover {
+  font-variation-settings: "wght" 200;
+  animation:  wacky infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+th{
+  text-align: right;
+  font-size: 30px;
+  font-family: ASBarajas;
+  font-variation-settings: "wght" 60;
+  transition: font-variation-settings 0.3s ease;
+  border-radius: 10px;
+  background-color: yellow;
+  padding-right: 20px;
+}
+
+.destacado{
+  padding:10px;
+}
+
+.titulo{
+  
+}
